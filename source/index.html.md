@@ -61,7 +61,7 @@ This endpoint retrieves all warnings.
 
 ### HTTP request
 
-`POST http://api.liukastumisvaroitus.fi/api/v1/warnings`
+`GET http://api.liukastumisvaroitus.fi/api/v1/warnings`
 
 ## Get a specific warning
 
