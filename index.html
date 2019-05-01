@@ -247,7 +247,7 @@
       <div class="dark-box"></div>
       <div class="content">
         <h1 id='introduction'>Introduction</h1>
-<p>Welcome to the documentation for api.liukastumisvaroitus.fi! You can use our endpoints to access
+<p>Welcome to the documentation for Liukastumisvaroitus API! You can use our endpoints to access
 the warnings given by our system.</p>
 <h1 id='authentication'>Authentication</h1>
 <p>Our API has no authentication, you are free to use it straight away. Please be mindful of the
@@ -256,8 +256,8 @@ load your application puts on our server to keep it running smoothly for everyon
 <blockquote>
 <p>Example parameters</p>
 </blockquote>
-<pre class="highlight plaintext"><code>http://api.liukastumisvaroitus.fi/api/v1/warnings?filter=city:Helsinki
-http://api.liukastumisvaroitus.fi/api/v1/warnings?order=created_at:desc
+<pre class="highlight plaintext"><code>https://liukastumisvaroitus-api.beze.io/api/v1/warnings?filter=city:Helsinki
+https://liukastumisvaroitus-api.beze.io/api/v1/warnings?order=created_at:desc
 </code></pre>
 <table><thead>
 <tr>
@@ -295,7 +295,7 @@ http://api.liukastumisvaroitus.fi/api/v1/warnings?order=created_at:desc
 </span></code></pre>
 <p>This endpoint retrieves all warnings.</p>
 <h3 id='http-request'>HTTP request</h3>
-<p><code>GET http://api.liukastumisvaroitus.fi/api/v1/warnings</code></p>
+<p><code>GET https://liukastumisvaroitus-api.beze.io/api/v1/warnings</code></p>
 <h2 id='get-a-specific-warning'>Get a specific warning</h2>
 <blockquote>
 <p>Example response</p>
@@ -309,7 +309,7 @@ http://api.liukastumisvaroitus.fi/api/v1/warnings?order=created_at:desc
 </span></code></pre>
 <p>This endpoint retrieves a specific warning.</p>
 <h3 id='http-request-2'>HTTP request</h3>
-<p><code>GET http://api.liukastumisvaroitus.fi/api/v1/warnings/&lt;ID&gt;</code></p>
+<p><code>GET https://liukastumisvaroitus-api.beze.io/api/v1/warnings/&lt;ID&gt;</code></p>
 <h3 id='query-parameters'>Query parameters</h3>
 <table><thead>
 <tr>
