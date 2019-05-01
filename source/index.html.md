@@ -12,7 +12,7 @@ search: true
 
 # Introduction
 
-Welcome to the documentation for api.liukastumisvaroitus.fi! You can use our endpoints to access
+Welcome to the documentation for Liukastumisvaroitus API! You can use our endpoints to access
 the warnings given by our system.
 
 # Authentication
@@ -25,8 +25,8 @@ load your application puts on our server to keep it running smoothly for everyon
 > Example parameters
 
 ```text
-http://api.liukastumisvaroitus.fi/api/v1/warnings?filter=city:Helsinki
-http://api.liukastumisvaroitus.fi/api/v1/warnings?order=created_at:desc
+https://liukastumisvaroitus-api.beze.io/api/v1/warnings?filter=city:Helsinki
+https://liukastumisvaroitus-api.beze.io/api/v1/warnings?order=created_at:desc
 ```
 
 Parameter | Description
@@ -61,7 +61,7 @@ This endpoint retrieves all warnings.
 
 ### HTTP request
 
-`GET http://api.liukastumisvaroitus.fi/api/v1/warnings`
+`GET https://liukastumisvaroitus-api.beze.io/api/v1/warnings`
 
 ## Get a specific warning
 
@@ -80,7 +80,7 @@ This endpoint retrieves a specific warning.
 
 ### HTTP request
 
-`GET http://api.liukastumisvaroitus.fi/api/v1/warnings/<ID>`
+`GET https://liukastumisvaroitus-api.beze.io/api/v1/warnings/<ID>`
 
 ### Query parameters
 
